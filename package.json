@@ -1,0 +1,31 @@
+{
+  "name": "kintone-devcamp2018",
+  "version": "1.0.0",
+  "description": "Live coding for kintone devCamp 2018",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --hot --https",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "kintone",
+    "cstap"
+  ],
+  "author": "ochi51",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "devcert-cli": "^1.0.0",
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
