@@ -19,6 +19,8 @@
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.0",
     "devcert-cli": "^1.0.0",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
     "webpack": "^4.16.0",
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
